@@ -17,7 +17,6 @@ async function checkWeather(city) {
 	const response = await fetch(weather_url)
 	let data = await response.json()
 
-	console.log(data.weather[0].description)
 	return data
 }
 
