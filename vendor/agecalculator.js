@@ -3,10 +3,8 @@ const age_input = document.querySelector('.age__input-date')
 const age_text = document.querySelector('.age__text')
 
 age_input.addEventListener('keypress', function (event) {
-	if (event.key === 'Enter') {
-		if (age_input.value.split('-')) {
-			getDate()
-		}
+	if (event.key === 'Enter' && age_input.value.split('-')) {
+		getDate()
 	}
 })
 
