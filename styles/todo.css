@@ -1,6 +1,12 @@
 .todo__html {
 	min-height: 100%;
-	background: linear-gradient(to bottom right, #8a2be2, #4b0082);
+	background: linear-gradient(
+		to bottom right,
+		#6d52a1,
+		#53349e,
+		#3a1f7a,
+		#1e1252
+	);
 	background-repeat: no-repeat;
 	background-size: cover;
 }
