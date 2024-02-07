@@ -5,6 +5,7 @@
 @import 'weather.css';
 @import 'todo.css';
 @import 'agecalculator.css';
+@import 'slider.css';
 
 input,
 textarea,
@@ -15,6 +16,8 @@ select {
 body {
 	font-weight: 300;
 	font-family: Josefin Sans;
+	position: relative;
+	margin: 0;
 }
 
 p {
