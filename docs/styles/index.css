@@ -19,7 +19,7 @@
 }
 
 .container {
-	margin: 200px 20%;
+	margin: 150px 20%;
 }
 
 .about-me__header {
@@ -29,7 +29,8 @@
 }
 
 .about-me__text {
-	max-width: 60%;
+	display: inline-block;
+	width: 55%;
 }
 
 .about-me__text ul {
@@ -90,15 +91,12 @@
 }
 
 .avatar {
-	height: 256px;
-	width: 256px;
 	overflow: hidden;
-	border-radius: 100%;
-}
-
-.avatar img {
-	height: 256px;
 	width: 256px;
+	height: 256px;
+	border-radius: 100%;
+	background-image: url('../images/avatar.jpg');
+	background-size: cover;
 }
 
 .project-list ul {
@@ -109,4 +107,35 @@
 
 .header {
 	background-color: #fff;
+}
+
+@media (width <= 948px) {
+	.about-me__header {
+		flex-direction: column-reverse;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.about-me__text {
+		width: 100%;
+		margin-top: 20px;
+		text-align: center;
+		align-items: center;
+		justify-content: center;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.about-me__tech-stack {
+		flex-direction: column;
+	}
+
+	.about-me__tech-stack span {
+		border: none;
+		padding: 0;
+	}
+
+	.container {
+		margin: 50px;
+	}
 }

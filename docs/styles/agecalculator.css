@@ -11,9 +11,7 @@
 }
 
 .age__main-block {
-	height: 500px;
-	width: 500px;
-	margin: 10% 20%;
+	margin: 0 20px;
 }
 
 .age__main-text {
@@ -36,7 +34,7 @@
 	padding: 20px;
 	border-radius: 5px;
 	background-color: rgba(255, 255, 255, 0.2);
-	width: 70%;
+	width: 30%;
 }
 
 .age__input-date {
@@ -68,4 +66,10 @@
 .age__date-style {
 	color: #778da9;
 	font-weight: 600;
+}
+
+@media (width < 1024px) {
+	.age__input-block {
+		width: 60%;
+	}
 }
