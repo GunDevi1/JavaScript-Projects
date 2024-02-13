@@ -1,3 +1,5 @@
+![MyWebsite](https://i.ibb.co/dMxxfWB/image.png)
+
 # JavaScript Projects
 
 This repository contains several projects written in JavaScript. The repository will be updated with new projects as I progress in my learning journey.
@@ -24,9 +26,18 @@ The "Login Page" project is a simple login form where users can enter their cred
 
 The "Age Calculator" project allows users to calculate their age based on the entered date of birth.
 
+### 6. QRCode Generator
+
+The "QRCode Generator" project allows users to generate QR codes for various purposes, such as sharing links, Wi-Fi credentials, or contact information.
+
+### 7. Tic Tac Toe Game
+
+The "Tic Tac Toe Game" project is a classic game where two players take turns marking spaces in a 3x3 grid, aiming to get three of their symbols in a row, column, or diagonal.
+
 # Usage
 
 Clone the repository:
 
 ```bash
 git clone https://github.com/GunDevi1/JavaScript-projects.git
+```
