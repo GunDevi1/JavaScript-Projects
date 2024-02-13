@@ -11,10 +11,11 @@
 
 .city__search {
 	font-size: 24px;
-	border-radius: 25px;
+	border-radius: 20px;
 	border: unset;
 	padding: 10px;
 	padding-left: 20px;
+	width: 80%;
 }
 
 .city__name,
