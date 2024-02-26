@@ -8,7 +8,7 @@ function generateQRCode() {
 	let size = sizeSelector.options[sizeSelector.selectedIndex].textContent
 	let color = firstColor.value.split('#')[1]
 	let bgcolor = secondColor.value.split('#')[1]
-	return `http://api.qrserver.com/v1/create-qr-code/?data=${input.value}&size=${size}&color=${color}&bgcolor=${bgcolor}`
+	return `https://api.qrserver.com/v1/create-qr-code/?data=${input.value}&size=${size}&color=${color}&bgcolor=${bgcolor}`
 }
 
 input.addEventListener('keypress', function (event) {
