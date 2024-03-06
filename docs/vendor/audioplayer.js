@@ -88,11 +88,19 @@ function updateProgressBar() {
 	progress.style.width = `${progressPercent}%`
 
 	const formatTime = time => String(Math.floor(time)).padStart(2, '0')
-	durationEl.textContent = `${formatTime(duration / 60)}:${formatTime(
-		duration % 60
-	)}`
+
 	currentTimeEl.textContent = `${formatTime(currentTime / 60)}:${formatTime(
 		currentTime % 60
+	)}`
+}
+
+function updateDuration() {
+	const { duration } = music
+
+	const formatTime = time => String(Math.floor(time)).padStart(2, '0')
+
+	durationEl.textContent = `${formatTime(duration / 60)}:${formatTime(
+		duration % 60
 	)}`
 }
 
@@ -107,6 +115,7 @@ prevBtn.addEventListener('click', () => changeMusic(-1))
 nextBtn.addEventListener('click', () => changeMusic(1))
 music.addEventListener('ended', () => changeMusic(1))
 music.addEventListener('timeupdate', updateProgressBar)
+music.addEventListener('loadedmetadata', updateDuration)
 playerProgress.addEventListener('click', setProgressBar)
 
 loadMusic(songs[musicIndex])
