@@ -14,33 +14,33 @@ const music = new Audio()
 
 const songs = [
 	{
-		path: '../music/1.mp3',
+		path: '../assets/music/1.mp3',
 		displayName: 'Rules of Nature',
-		cover: '../images/1.jpg',
+		cover: '../assets/images/1.jpg',
 		artist: 'Jamie Christopherson',
 	},
 	{
-		path: '../music/2.mp3',
+		path: '../assets/music/2.mp3',
 		displayName: 'The Only Thing I Know For Real',
-		cover: '../images/2.jpg',
+		cover: '../assets/images/2.jpg',
 		artist: 'Jamie Christopherson',
 	},
 	{
-		path: '../music/3.mp3',
+		path: '../assets/music/3.mp3',
 		displayName: 'It Has To Be This Way',
-		cover: '../images/3.jpg',
+		cover: '../assets/images/3.jpg',
 		artist: 'Jamie Christopherson',
 	},
 	{
-		path: '../music/4.mp3',
+		path: '../assets/music/4.mp3',
 		displayName: 'Bury The Light',
-		cover: '../images/4.jpg',
+		cover: '../assets/images/4.jpg',
 		artist: 'Casey Edwards',
 	},
 	{
-		path: '../music/5.mp3',
+		path: '../assets/music/5.mp3',
 		displayName: 'The Stains Of Time',
-		cover: '../images/5.jpg',
+		cover: '../assets/images/5.jpg',
 		artist: 'Jamie Christopherson',
 	},
 ]
