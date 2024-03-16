@@ -34,6 +34,10 @@ The "QRCode Generator" project allows users to generate QR codes for various pur
 
 The "Tic Tac Toe Game" project is a classic game where two players take turns marking spaces in a 3x3 grid, aiming to get three of their symbols in a row, column, or diagonal.
 
+### 8. Audio Player
+
+A basic audio player that enables playback of audio files directly on a webpage, which featuring controls like play, pause, and volume adjustment.
+
 # Usage
 
 Clone the repository:
