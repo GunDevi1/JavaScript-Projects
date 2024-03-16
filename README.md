@@ -1,4 +1,4 @@
-[![MyWebsite](https://i.ibb.co/dMxxfWB/image.png)](https://jovial-truffle-a3aee1.netlify.app/)
+[![MyWebsite](https://i.ibb.co/2k8Wkqh/image.png)](https://helpful-churros-7eb5df.netlify.app/)
 
 # JavaScript Projects
 
